@@ -37,6 +37,7 @@ from flask_inertia.views import (
     inertia_location,
     lazy_include,
     render_inertia,
+    get_asset_version,
 )
 
 __all__ = [
@@ -45,5 +46,6 @@ __all__ = [
     "inertia_location",
     "lazy_include",
     "always_include",
+    "get_asset_version",
 ]
 __version__ = "0.9.1"
